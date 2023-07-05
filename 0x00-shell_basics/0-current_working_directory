@@ -1,8 +1,2 @@
 #!/bin/bash
-(defun print-current-directory ()
-  "Prints the absolute path name of the current working directory."
-  (interactive)
-  (let ((current-dir (expand-file-name default-directory)))
-    (message "Current directory: %s" current-dir)))
-
-(print-current-directory) C-x C-e
+pwd
